@@ -1,5 +1,3 @@
-# NODEMCU_8266
-8 Channel Relay Control using esp8266
 /**
  * Simple ESP8266 server compliant with Mozilla's proposed WoT API
  * Based on the HelloServer example
@@ -15,8 +13,8 @@
 #include <EthernetWebThingAdapter.h>
 
 //TODO: Hardcode your wifi credentials here (and keep it private)
-const char* ssid = "ANKIT_WIFI";
-const char* password = " ";
+const char* ssid = "ANKITAPPS";
+const char* password = "MOT";
 
 #if defined(LED_BUILTIN)
 const int ledPin = 14;
